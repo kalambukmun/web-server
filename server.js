@@ -1,7 +1,10 @@
 var express = require('express');
 var app = express();
+var middleware = require('./middleware');
 
 var PORT = 3000;
+
+var middleware = require()
 
 var middleware = {
 	requireAuthentication: function (req, res, next) {
